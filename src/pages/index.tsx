@@ -4,6 +4,7 @@ import styles from '../../styles/Home.module.css'
 type Props = {
   title: string
 }
+
 export default function Home({ title = 'Bem vindo ao' }: Props) {
   return (
     <div className={styles.container}>
